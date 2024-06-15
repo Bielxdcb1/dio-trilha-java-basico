@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class ContaTermina {
     public static void main(String[] args) throws Exception {
-        int numero;
+        
+		Scanner sc = new Scanner(System.in);
+		int numero;
 		String agencia;
 		String nomeCliente;
 		double saldo;
@@ -27,5 +31,5 @@ public class ContaTermina {
 				+ " para saque.", nomeCliente, agencia, numero, saldo);
 
 		sc.close();
-    }
+	}
 }
